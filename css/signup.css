@@ -1,0 +1,86 @@
+*{
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimg{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(27deg,#004e95 50%, #013a5b 50%);
+}
+.center-div{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    background-image: linear-gradient(27deg,#013a5b 50%, #004e95 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+#profilepic{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: -60px;
+    left: calc((350px - 120px)/2);
+}
+h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-shadow: -2px 2px 1px #0a84c6;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.input:hover{
+    border: 1px 1px 4px solid #0a84c6;
+}
+.inputbox{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+::placeholder{
+    letter-spacing: 2px;
+    color: black;
+}
+button{
+    width: calc(100% - 40px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: #0a84c6;
+    color: white;
+    border: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.forget{
+    width: calc(100% - 40px);
+    line-height: 30px;
+    display: block;
+    margin: auto;
+    text-align: right;
+    color: white;
+    background-color: dodgerblue;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  padding-right: 20px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a h4:hover{
+    color:blue;
+}

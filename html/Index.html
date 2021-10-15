@@ -1,0 +1,258 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="../css/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/5b981a74c2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button#btn1").click(function(){
+        $(".web1").toggle(1000);
+    });
+    $("button#btn2").click(function(){
+        $(".web2").toggle(1000);
+    });
+    $("button#btn3").click(function(){
+        $(".web3").toggle(1000);
+    });
+    $("button#btn4").click(function(){
+        $(".web4").toggle(1000);
+    });
+   
+    
+});
+</script>
+    <title>My website</title>
+</head>
+<body onload="myFunction()">
+       <div id="loading"></div>
+
+    <!--------- header -------->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand logo">
+                   <a href="#hero"><h1><span>M</span>o<span>i</span>n<span>u</span>d<span>i</span>n</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Services">Services</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                        <li><a href="signup.html" data-after="Sign Up" type="button">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!------ hero section ------->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello,<span></span></h1>
+                <h1>My Name Is<span></span></h1>
+                <h1>Moinudin<span></span></h1>
+                <a href="#about" type="button" class="cta">Protofolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+              <h1 class="section-title">Serv<span>i</span>ces</h1>
+            <p>In today’s world, mobile and Web Development provides an effective and robust medium, 
+                which are used for communicating and delivering content to our customers and clients.
+                 Web applications are also extremely important for successful PR, marketing, and customer 
+                 
+            </p>
+            </div>
+            <div class="service-bottom">
+                 <div class="service-item">
+                     <div class="icon"><img src="../Image/webdevlopment.png"></div>
+                     <h2>web Devlopment</h2>
+                     <p>In today’s world, mobile and Web Development provides an effective and robust medium.  </p>
+                     <button type="button" id="btn1" class="btn" onclick="">Read more </button>
+                   <p class="web web1">In today’s world, mobile and Web Development provides an effective and robust medium, which are used for communicating and delivering content to our customers and clients. Web applications are also extremely important for successful PR, marketing, and customer relationship management strategies. The software development life cycle (SDLC), is considered as a framework that defines a set of tasks to be performed at each step in the software development process. The life cycle also defines a methodology for improving the quality of software and also the overall development process.They also provides a structure to be followed by the organizations development team. …</p>
+                  </div>
+                 <div class="service-item">
+                    <div class="icon"><img src="../Image/appdevlopment.png"></div>
+                    <h2>App Devlopment</h2>
+                    <p>In today’s world, mobile and Web Development provides an effective and robust medium. </p>
+                   <button type="button" id="btn2" class="btn" onclick="">Read more </button>
+                   <p class="web web2" >In today’s world, mobile and Web Development provides an effective and robust medium, which are used for communicating and delivering content to our customers and clients. Web applications are also extremely important for successful PR, marketing, and customer relationship management strategies. The software development life cycle (SDLC), is considered as a framework that defines a set of tasks to be performed at each step in the software development process. The life cycle also defines a methodology for improving the quality of software and also the overall development process.They also provides a structure to be followed by the organizations development team. …</p>
+                 </div>
+                <div class="service-item">
+                    <div class="icon"><img src="../Image/graphicdesign.png"></div>
+                    <h2>Graphics Design</h2>
+                    <p>In today’s world, mobile and Web Development provides an effective and robust medium.</p>
+                    <button type="button"  id="btn3" class="btn" onclick="">Read more </button>
+                    <p class="web web3">In today’s world, mobile and Web Development provides an effective and robust medium, which are used for communicating and delivering content to our customers and clients. Web applications are also extremely important for successful PR, marketing, and customer relationship management strategies. The software development life cycle (SDLC), is considered as a framework that defines a set of tasks to be performed at each step in the software development process. The life cycle also defines a methodology for improving the quality of software and also the overall development process.They also provides a structure to be followed by the organizations development team. …</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="../Image/digitalmarketing.png"></div>
+                    <h2>Digital Marketing</h2>
+                    <p>In today’s world, mobile and Web Development provides an effective and robust medium.</p>
+                    <button type="button" id="btn4" class="btn" onclick="">Read more </button>
+                   <p class="web web4">In today’s world, mobile and Web Development provides an effective and robust medium, which are used for communicating and delivering content to our customers and clients. Web applications are also extremely important for successful PR, marketing, and customer relationship management strategies. The software development life cycle (SDLC), is considered as a framework that defines a set of tasks to be performed at each step in the software development process. The life cycle also defines a methodology for improving the quality of software and also the overall development process.They also provides a structure to be followed by the organizations development team. …</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section -->
+    <section id="projects">
+        <div class="projects container">
+              <div class="projects-hearder">
+                      <h1 class="section-title">Recent<span> Projects</span></h1>
+              </div>
+              <div class="all-projects">
+                  <div class="project-item">
+                      <div class="project-info">
+                         <h1>project 1</h1>
+                         <h2>coding is love</h2>
+                         <p>In today’s world, mobile and Web Development provides an effective and robust medium, </p>                        
+                      </div>
+                      <div class="project-img">
+                         <img src="../Image/backservice.png" alt="img">
+                        
+                      </div>
+                  </div>
+                  <div class="project-item">
+                    <div class="project-info">
+                       <h1>project 2</h1>
+                       <h2>coding is love</h2>
+                       <p>In today’s world, mobile and Web Development provides an effective and robust medium, </p>                        
+                    </div>
+                    <div class="project-img">
+                       <img src="../Image/backservice.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                       <h1>project 3</h1>
+                       <h2>coding is love</h2>
+                       <p>In today’s world, mobile and Web Development provides an effective and robust medium, </p>                       
+                    </div>
+                    <div class="project-img">
+                       <img src="../Image/backservice.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                       <h1>project 4</h1>
+                       <h2>coding is love</h2>
+                       <p>In today’s world, mobile and Web Development provides an effective and robust medium, </p>                        
+                    </div>
+                    <div class="project-img">
+                       <img src="../Image/backservice.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                       <h1>project 5</h1>
+                       <h2>coding is love</h2>
+                       <p>In today’s world, mobile and Web Development provides an effective and robust medium, </p>                        
+                    </div>
+                    <div class="project-img">
+                       <img src="../Image/backservice.png" alt="img">
+                    </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+
+    <!-------- About section -------->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="../Image/profile.jpg" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>Me</span></h1>
+                <h2>Front End Web Developer</h2>
+                <p>In today’s world, mobile and Web Development provides an effective and robust medium,
+                    which are used for communicating and delivering content to our customers and clients.
+                    In today’s world, mobile and Web Development provides an effective and robust medium, 
+                    which are used for communicating and delivering content to our customers and clients. 
+                    Web applications are also extremely important for successful PR, marketing, and 
+                    customer relationship management strategies.
+                </p>
+                <a href="#" class="cta">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact <span>info</span></h1></div>
+                <div class="contact-items">
+                     <div class="contact-item">
+                         <div class="icon"><img src="../Image/phone.png" alt="img"></div>
+                         <div class="contact-info">
+                             <h1>Phone</h1>
+                             <h2>+91 9328207651</h2>
+                             <h2>+91 8238808575</h2>
+                         </div>
+                     </div>
+                     <div class="contact-item">
+                         <div class="icon"><img src="../Image/email.png" alt="img"></div>
+                         <div class="contact-info">
+                             <h1>Email</h1>
+                             <h2>8338@gmail.com</h2>
+                             <h2>7@gmail.com</h2>
+                         </div>
+                     </div>
+                     <div class="contact-item">
+                         <div class="icon"><img src="../Image/address.png" alt="img"></div>
+                         <div class="contact-info">
+                             <h1>Address</h1>
+                             <h2>+91 9328207651</h2>
+                             <h2>+91 8238808575</h2>
+                         </div>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------- footer section --------->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1><span>K</span>diwal <span>M</span>oinudin</h1></div>
+            <h2>Your Complte Web Solution</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="../Image/facebook.png"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="../Image/insta.png"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="../Image/twitter.png"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="../Image/youtube.png"></a>
+                </div>
+            </div>
+            <p>Copyright 2021 Moinudin,All rights Reserved</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script>
+     var preloader = document.getElementById('loading');
+
+     function myFunction() {
+        preloader.style.display ='none';
+     }
+    </script>
+     </body>
+</html>
